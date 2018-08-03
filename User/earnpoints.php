@@ -6,7 +6,7 @@
 		<div class="pay-points">
 			<div class="container">
 				<div class="modtitle">
-					<p>Earn Pay-Points </p>
+					<p>Earn Pay Points </p>
 				</div>
 				<div class="row">
 					<div class="col-md-8 col-sm-12">
@@ -28,11 +28,11 @@
 							<div class="slots">
 								<h6>Macros viwer slots: <span>0/5</span></h6>
 								<hr>
-								<a href="#">Buy more</a>
+								<a href="buyslots">Buy More</a>
 								<p>( $0.25 USD ) Per Browser/Website Slot</p>
 							</div>
 							<div class="browser">
-								<h6>My working browsers</h6>
+								<h6>My Working Browsers</h6>
 								<hr>
 								<ol>
 									<li></li>
@@ -48,5 +48,5 @@
 	</aside>
 
 <?php
-	include 'header.php';
+	include 'footer.php';
 ?>

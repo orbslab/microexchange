@@ -5,7 +5,7 @@
     <aside class="clear-fix">
 		<div class="buy-points">
 			<div class="container">
-				<h3>Buy pay-points</h3>
+				<h3>Buy Pay-Points</h3>
 				<div class="container">
 					<table class="table table-hover">
 						<thead>
@@ -81,8 +81,8 @@
 
 									<!-- Modal footer -->
 									<div class="modal-footer">
-										<a href="file:///F:/New/New%20folder/payment.html?username=&email=&expiry_month=&expiry_year=13&password_confirm=" data-toggle="tooltip" data-placement="bottom" title="PAY WITH DEBIT OR CREDIT CARD"><button type="button" class="btn"><i class="far fa-credit-card"> PAY WITH DEBIT OR CREDIT CARD</i></button></a>
-										<a href="#" data-toggle="tooltip" data-placement="bottom" title="PAYPAL"><button type="button" class="btn" data-dismiss="modal"><i class="fab fa-paypal"> PAYPAL</i></button></a>
+										<a href="payment" data-toggle="tooltip" data-placement="bottom" title="PAY WITH DEBIT OR CREDIT CARD"><button type="button" class="btn"><i class="far fa-credit-card"> PAY WITH DEBIT OR CREDIT CARD</i></button></a>
+										<a href="https://paypal.com" data-toggle="tooltip" data-placement="bottom" title="PAYPAL"><button type="button" class="btn" data-dismiss="modal"><i class="fab fa-paypal"> PAYPAL</i></button></a>
 									</div>
 
 								</div>
@@ -125,8 +125,8 @@
 
 									<!-- Modal footer -->
 									<div class="modal-footer">
-										<a href="file:///F:/New/New%20folder/payment.html?username=&email=&expiry_month=&expiry_year=13&password_confirm=" data-toggle="tooltip" data-placement="bottom" title="PAY WITH DEBIT OR CREDIT CARD"><button type="button" class="btn"><i class="far fa-credit-card"> PAY WITH DEBIT OR CREDIT CARD</i></button></a>
-										<a href="#" data-toggle="tooltip" data-placement="bottom" title="PAYPAL"><button type="button" class="btn" data-dismiss="modal"><i class="fab fa-paypal"> PAYPAL</i></button></a>
+										<a href="payment" data-toggle="tooltip" data-placement="bottom" title="PAY WITH DEBIT OR CREDIT CARD"><button type="button" class="btn"><i class="far fa-credit-card"> PAY WITH DEBIT OR CREDIT CARD</i></button></a>
+										<a href="https://paypal.com" data-toggle="tooltip" data-placement="bottom" title="PAYPAL"><button type="button" class="btn" data-dismiss="modal"><i class="fab fa-paypal"> PAYPAL</i></button></a>
 									</div>
 
 								</div>
@@ -169,8 +169,8 @@
 
 									<!-- Modal footer -->
 									<div class="modal-footer">
-										<a href="file:///F:/New/New%20folder/payment.html?username=&email=&expiry_month=&expiry_year=13&password_confirm=" data-toggle="tooltip" data-placement="bottom" title="PAY WITH DEBIT OR CREDIT CARD"><button type="button" class="btn"><i class="far fa-credit-card"> PAY WITH DEBIT OR CREDIT CARD</i></button></a>
-										<a href="#" data-toggle="tooltip" data-placement="bottom" title="PAYPAL"><button type="button" class="btn" data-dismiss="modal"><i class="fab fa-paypal"> PAYPAL</i></button></a>
+										<a href="payment" data-toggle="tooltip" data-placement="bottom" title="PAY WITH DEBIT OR CREDIT CARD"><button type="button" class="btn"><i class="far fa-credit-card"> PAY WITH DEBIT OR CREDIT CARD</i></button></a>
+										<a href="https://paypal.com" data-toggle="tooltip" data-placement="bottom" title="PAYPAL"><button type="button" class="btn" data-dismiss="modal"><i class="fab fa-paypal"> PAYPAL</i></button></a>
 									</div>
 								</div>
 							</div>

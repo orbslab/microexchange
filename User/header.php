@@ -22,7 +22,7 @@
     <section class="top-nav">
       <nav class="navbar navbar-expand-md navbar-color navbar-dark">
         <div class="container">
-          <a class="navbar-brand" href=".html">TrafficMacro</a>
+          <a class="navbar-brand" href="account">TrafficMacro</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse">
               <span><i class="fa fa-th"></i></span>
           </button>
@@ -34,7 +34,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="logout" class="nav-link">
                   <span class="nav-title">Logout</span>
                 </a>
               </li>
@@ -60,33 +60,33 @@
             </li>
             <ul class="sub-menu collapse" id="start">
               <li>
-                <a href="#">
+                <a href="setting">
                   Setting
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="logout">
                   Logout
                 </a>
               </li>
             </ul>
             <li class="collapsed">
-              <a href="#"><i class="fa fa-user fa-lg"></i> Account </a>
+              <a href="account"><i class="fa fa-user fa-lg"></i> Account </a>
             </li>
             <li class="collapsed">
-              <a href="#"><i class="fa fa-window-maximize fa-lg"></i> My Website </a>
+              <a href="website"><i class="fa fa-window-maximize fa-lg"></i> My Website </a>
             </li>
             <li class="collapsed">
-              <a href="#"><i class="fa fa-exchange fa-lg"></i> Earn Points </a>
+              <a href="earnpoints"><i class="fa fa-exchange fa-lg"></i> Earn Points </a>
             </li>
             <li class="collapsed">
-              <a href="#"><i class="fa fa-cart-arrow-down fa-lg"></i> Buy Traffic Link </a>
+              <a href="buypoints"><i class="fa fa-cart-arrow-down fa-lg"></i> Buy Trafic </a>
             </li>
             <li class="collapsed">
-              <a href="#"><i class="fa fa-users fa-lg"></i> Referrals </a>
+              <a href="referrals"><i class="fa fa-users fa-lg"></i> Referrals </a>
             </li>
             <li class="collapsed">
-              <a href="#"><i class="fa fa-handshake-o fa-lg"></i> Support & FAQ's </a>
+              <a href="contact"><i class="fa fa-handshake-o fa-lg"></i> Support & FAQ's </a>
             </li>
           </ul>
         </div>

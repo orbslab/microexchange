@@ -42,12 +42,12 @@
 					<a href="#" data-toggle="tooltip" data-placement="bottom"><button type="button" class="btn">Request Payout</button></a>
 				</div>
 				<div class="float-right">
-					<a href="file:///F:/New/New%20folder/referrals.html" data-toggle="tooltip" data-placement="bottom"><button type="button" class="btn">Cancel</button></a>
+					<a href="#" data-toggle="tooltip" data-placement="bottom"><button type="button" class="btn">Cancel</button></a>
 				</div>
 			</div>
 		</div>
 	</div>
 
 <?php
-	include 'header.php';
+	include 'footer.php';
 ?>

@@ -30,7 +30,7 @@
 					<div class="request-payout">
 						<h4>Cash: </h4><hr>
 						<p><span>$</span> 0.00</p>
-						<a href="file:///F:/New/New%20folder/final-payout.html#" data-toggle="tooltip" data-placement="bottom"><button type="button" class="btn">Request Payout</button></a>
+						<a href="finalpayout" data-toggle="tooltip" data-placement="bottom"><button type="button" class="btn">Request Payout</button></a>
 					</div>
 				</div>
 			</div>	

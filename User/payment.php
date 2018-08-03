@@ -8,7 +8,6 @@
           <p>Payment</p>
         </div>
         <form class="form-horizontal">
-          <fieldset>
             <!-- Name -->
             <div class="control-group">
               <label class="control-label"  for="username">Card Holder's Name</label>
@@ -83,8 +82,6 @@
                 <button class="btn">Pay Now</button>
               </div>
             </div>
-       
-          </fieldset>
         </form>
       </div>
     </div>
