@@ -1,9 +1,18 @@
+<?php
+  include '../core/controller.php';
+
+  session_start();
+  if($_SESSION["user"] == NULL) {
+    header("Location: ../index");
+  }
+?>
+
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TrafficMacro</title>
+  <title>Micro Exchange</title>
   <!--================================================= 
   CSS Style 
   =====================================================-->
@@ -46,7 +55,7 @@
 
     <section class="profile-nav">
       <div class="nav-side-menu">
-        <div class="brand">TrafficMacro</div>
+        <div class="brand">Micro Exchange</div>
         <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
         <div class="menu-list">
           <ul id="menu-content" class="menu-content collapse out">

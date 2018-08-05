@@ -1,3 +1,12 @@
+<?php
+  include 'core/controller.php';
+
+  session_start();
+  if($_SESSION["user"] != NULL) {
+    header("Location: User/account");
+  }
+?>
+
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
@@ -9,13 +18,14 @@
   =====================================================-->
   <link rel="stylesheet" href="Theme/css/style.css">
   <link rel="stylesheet" href="Theme/font/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="Theme/css/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="Theme/font/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="Theme/css/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Theme/font/font-awesome-4.7.0/css/font-awesome.min.css">
     <!-- =================================================
   Script 
   ======================================================-->
-    <script src="Theme/js/jquery-3.3.1.min.js"></script>
-    <script src="Theme/css/bootstrap/js/bootstrap.min.js"></script>
+  <script src="Theme/js/jquery-3.3.1.min.js"></script>
+  <script src="Theme/js/main.js"></script>
+  <script src="Theme/css/bootstrap/js/bootstrap.min.js"></script>
 </head>
 
 <body class="points_table_scrollbar" style="overflow-x: hidden;">

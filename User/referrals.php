@@ -5,11 +5,13 @@
 	<div class="referral clear-fix">
 		<div class="container">
 			<div class="form-group">
-			  <fieldset>
-			    <label class="control-label" for="readOnlyInput">Your referral link</label>
-			    <input class="form-control" id="readOnlyInput" type="text" placeholder="https://macro.com/by/jhon1234" readonly="">
-			    <p>Refer People By Giving Them Your Above Link</p><hr>
-			  </fieldset>
+			    <label class="control-label" for="readOnlyInput">Your Referral Link</label>
+
+			    <form class="form-inline" action="" method="post">
+				    <input class="form-control col-md-10" id="refLink" type="text" value="https://macro.com/by/jhon1234" readonly>
+				    <input type="submit" value="Copy Link" class="btn refer_copy" onclick="copy()">
+				</form>
+				<p>Refer People By Giving Them Your Above Link</p><hr>
 			</div>
 			<div class="row">
 				<div class="col-md-6 col-sm-12">

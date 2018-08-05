@@ -852,6 +852,7 @@ table .btn:focus,
 /*==========================
   Referral 
 ==========================*/
+
 .referral{
   position: fixed;
   overflow: auto;
@@ -872,7 +873,6 @@ table .btn:focus,
   font-weight: bold;
 }
 .referral input{
-  border: 2px ridge #ff6600;
   margin-bottom: 30px;
 }
 .referral .referral-status{
@@ -882,6 +882,16 @@ table .btn:focus,
 .referral .referral-commission{
   padding: 30px;
   background-color: #fff1e8;
+}
+
+.refer_copy {
+  border: none !important;
+  margin-left: 10px;
+}
+
+.refer_copy:hover {
+  background: #ff6600 !important;
+  color: #fff !important;
 }
 
 .request-payout{
