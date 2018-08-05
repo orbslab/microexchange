@@ -8,11 +8,12 @@
 			}
 		}
 
-		public function signUp($email, $user, $pass, $conn) {
+		public function signUp($email, $user, $pass, $by, $conn) {
 			$pass = md5($pass);
+			$refer = uniqid();
 
-			$sql = $conn->prepare("INSERT INTO usr_info (usr_name, usr_email, usr_pass) VALUES (?, ?, ?)");
-			$sql->bind_param("sss", $user, $email, $pass);
+			$sql = $conn->prepare("INSERT INTO usr_info (usr_name, usr_email, usr_pass, refer_link, referred_by, active) VALUES (?, ?, ?, ?, ?, 0)");
+			$sql->bind_param("sssss", $user, $email, $pass, $refer, $by);
 			
 			if($sql->execute()) {
 				return true;
@@ -55,6 +56,16 @@
 			} else {
 				return true;
 			}
+		}
+
+		public function getRefer($name, $conn) {
+			$sql = $conn->prepare("SELECT refer_link FROM usr_info WHERE usr_name = ?");
+			$sql->bind_param("s", $name);
+			$sql->execute();
+			$res = $sql->get_result();
+			$row = $res->fetch_assoc();
+
+			return $row['refer_link'];
 		}
 	}
 

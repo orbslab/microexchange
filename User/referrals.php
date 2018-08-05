@@ -8,7 +8,7 @@
 			    <label class="control-label" for="readOnlyInput">Your Referral Link</label>
 
 			    <form class="form-inline" action="" method="post">
-				    <input class="form-control col-md-10" id="refLink" type="text" value="https://macro.com/by/jhon1234" readonly>
+				    <input class="form-control col-md-10" id="refLink" type="text" value="<?php echo $lang['root'].'/sign?by='.$ctrl->getRefer($_SESSION['user'], $conn)?>" readonly>
 				    <input type="submit" value="Copy Link" class="btn refer_copy" onclick="copy()">
 				</form>
 				<p>Refer People By Giving Them Your Above Link</p><hr>

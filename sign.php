@@ -14,11 +14,17 @@
             }
           }
 
+          if(isset($_GET['by'])) {
+            $by = $_GET['by'];
+          } else {
+            $by = '';
+          }
+
           if(isset($_POST['signup'])) {
             if($ctrl->uniqe('email', $_POST['signEmail'], $conn) == true && $ctrl->uniqe('username', $_POST['username'], $conn) == true) 
             {
               if($_POST['signPass'] == $_POST['signPass2']) {
-                if($ctrl->signUp($_POST['signEmail'], $_POST['username'], $_POST['signPass2'], $conn)) {
+                if($ctrl->signUp($_POST['signEmail'], $_POST['username'], $_POST['signPass2'], $by, $conn)) {
                   echo "<p style='text-align: center; color: green; margin: 5px !important;'>Signup Success</p><br>";
                 } else {
                   echo "<p style='text-align: center; color: red; margin: 5px !important;'>Signup Failed!!</p><br>";
