@@ -820,7 +820,7 @@ table .btn:focus,
 }
 .payment{
   position: fixed;
-  overflow: auto;
+  overflow: auto !important;
   right: 0;
   width: 75%;
   height: 100%;

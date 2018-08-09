@@ -64,27 +64,17 @@
 
 								<!-- Modal body -->
 								<div class="modal-body">
-									<p>20,000 Pay-Points</p>
-									<hr>
-									<p>USD $1</p>
-									<hr>
-									<div class="form-group">
-										<div class="custom-control custom-checkbox">
-											<input type="checkbox" class="custom-control-input" id="customCheck1" checked="">
-											<label class="custom-control-label" for="customCheck1">I want this package to renew every month!</label>
+									<form action="" method="get">
+										<p>20,000 Pay-Points</p>
+										<input type="hidden" name="name" value="20000"><hr>
+										<p>USD $1</p>
+										<input type="hidden" name="amount" value="1">
+
+										<!-- Modal footer -->
+										<div class="modal-footer">
+											<button type="submit" class="btn"><i class="fa fa-cc-paypal"> PAY WITH PAYPAL</i></button>
 										</div>
-									</div>
-
-									<div class="modal-body">
-
-									</div>
-
-									<!-- Modal footer -->
-									<div class="modal-footer">
-										<a href="payment" data-toggle="tooltip" data-placement="bottom" title="PAY WITH DEBIT OR CREDIT CARD"><button type="button" class="btn"><i class="far fa-credit-card"> PAY WITH DEBIT OR CREDIT CARD</i></button></a>
-										<a href="https://paypal.com" data-toggle="tooltip" data-placement="bottom" title="PAYPAL"><button type="button" class="btn" data-dismiss="modal"><i class="fab fa-paypal"> PAYPAL</i></button></a>
-									</div>
-
+									</form>
 								</div>
 							</div>
 						</div>
@@ -108,27 +98,17 @@
 
 								<!-- Modal body -->
 								<div class="modal-body">
-									<p>220,000 Pay-Points</p>
-									<hr>
-									<p>USD $10</p>
-									<hr>
-									<div class="form-group">
-										<div class="custom-control custom-checkbox">
-											<input type="checkbox" class="custom-control-input" id="customCheck2" checked="">
-											<label class="custom-control-label" for="customCheck2">I want this package to renew every month!</label>
+									<form action="" method="get">
+										<p>220,000 Pay-Points</p>
+										<input type="hidden" name="name" value="220000"><hr>
+										<p>USD $10</p>
+										<input type="hidden" name="amount" value="10">
+
+										<!-- Modal footer -->
+										<div class="modal-footer">
+											<button type="submit" class="btn"><i class="fa fa-cc-paypal"> PAY WITH PAYPAL</i></button>
 										</div>
-									</div>
-
-									<div class="modal-body">
-
-									</div>
-
-									<!-- Modal footer -->
-									<div class="modal-footer">
-										<a href="payment" data-toggle="tooltip" data-placement="bottom" title="PAY WITH DEBIT OR CREDIT CARD"><button type="button" class="btn"><i class="far fa-credit-card"> PAY WITH DEBIT OR CREDIT CARD</i></button></a>
-										<a href="https://paypal.com" data-toggle="tooltip" data-placement="bottom" title="PAYPAL"><button type="button" class="btn" data-dismiss="modal"><i class="fab fa-paypal"> PAYPAL</i></button></a>
-									</div>
-
+									</form>
 								</div>
 							</div>
 						</div>
@@ -137,7 +117,6 @@
 				</div>
 
 				<div class="container">
-
 
 					<!-- The Modal -->
 					<div class="modal" id="myModal2">
@@ -152,26 +131,17 @@
 
 								<!-- Modal body -->
 								<div class="modal-body">
-									<p>2,200,000 Pay-Points</p>
-									<hr>
-									<p>USD $100</p>
-									<hr>
-									<div class="form-group">
-										<div class="custom-control custom-checkbox">
-											<input type="checkbox" class="custom-control-input" id="customCheck3" checked="">
-											<label class="custom-control-label" for="customCheck3">I want this package to renew every month!</label>
+									<form action="" method="get">
+										<p>2,200,000 Pay-Points</p>
+										<input type="hidden" name="name" value="2200000"><hr>
+										<p>USD $100</p>
+										<input type="hidden" name="amount" value="100">
+
+										<!-- Modal footer -->
+										<div class="modal-footer">
+											<button type="submit" class="btn"><i class="fa fa-cc-paypal"> PAY WITH PAYPAL</i></button>
 										</div>
-									</div>
-
-									<div class="modal-body">
-
-									</div>
-
-									<!-- Modal footer -->
-									<div class="modal-footer">
-										<a href="payment" data-toggle="tooltip" data-placement="bottom" title="PAY WITH DEBIT OR CREDIT CARD"><button type="button" class="btn"><i class="far fa-credit-card"> PAY WITH DEBIT OR CREDIT CARD</i></button></a>
-										<a href="https://paypal.com" data-toggle="tooltip" data-placement="bottom" title="PAYPAL"><button type="button" class="btn" data-dismiss="modal"><i class="fab fa-paypal"> PAYPAL</i></button></a>
-									</div>
+									</form>
 								</div>
 							</div>
 						</div>
