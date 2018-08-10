@@ -1,7 +1,7 @@
 <?php
-	require 'vendor/autoload.php';
+	require '../vendor/autoload.php';
 
-	define('SITE_URL', 'http://localhost/Micro Exchange');
+	define('SITE_URL', 'http://localhost/Micro Exchange/User');
 
 	$paypal = new \PayPal\Rest\ApiContext(
 		new \PayPal\Auth\OAuthTokenCredential(
