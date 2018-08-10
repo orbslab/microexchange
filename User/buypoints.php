@@ -131,15 +131,15 @@
 
 								<!-- Modal body -->
 								<div class="modal-body">
-									<form action="" method="get">
+									<form action="checkout.php" method="post">
 										<p>2,200,000 Pay-Points</p>
-										<input type="hidden" name="name" value="2200000"><hr>
+										<input type="hidden" name="product" value="2200000"><hr>
 										<p>USD $100</p>
-										<input type="hidden" name="amount" value="100">
+										<input type="hidden" name="price" value="100">
 
 										<!-- Modal footer -->
 										<div class="modal-footer">
-											<button type="submit" class="btn"><i class="fa fa-cc-paypal"> PAY WITH PAYPAL</i></button>
+											<button type="submit" class="btn" name="pay"><i class="fa fa-cc-paypal"> PAY WITH PAYPAL</i></button>
 										</div>
 									</form>
 								</div>
